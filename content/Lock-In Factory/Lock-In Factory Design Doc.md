@@ -1,6 +1,6 @@
 ---
 title: Lock-In Factory Design Doc
-publish: "true"
+draft: "false"
 tags:
   - Documentation
   - Published

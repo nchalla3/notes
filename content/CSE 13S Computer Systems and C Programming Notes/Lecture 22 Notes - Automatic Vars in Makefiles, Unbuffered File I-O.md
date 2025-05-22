@@ -1,6 +1,6 @@
 ---
 title: Lecture 22 Notes - Automatic Vars in Makefiles, Unbuffered File I-O
-publish: "false"
+draft: "true"
 tags:
   - Lecture-Notes
   - Draft
