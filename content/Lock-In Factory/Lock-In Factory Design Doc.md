@@ -1,3 +1,10 @@
+---
+title: Lock-In Factory Design Doc
+publish: "true"
+tags:
+  - Documentation
+  - Published
+---
 ## Front-End:
 * ~~All screens have a lock-in logo in the top left, which redirects to the lock-in page (this also can be accessed by pressing the lock-in button that is always in the bottom center)~~
 1. Initial Log-In:
