@@ -1,11 +1,10 @@
 ---
-title: Lecture 22 Notes - Automatic Vars in Makefiles, Unbuffered File I-O
+title: Automatic Vars in Makefiles, Unbuffered File I-O
 publish: "true"
 tags:
   - Lecture-Notes
   - Draft
 ---
-
 ## Automatic Variables in Makefiles
 
 ### Purpose

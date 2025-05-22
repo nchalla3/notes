@@ -1,5 +1,5 @@
 ---
-title: Current Lock-In Factory Design Doc
+title: Lock-In Factory Design Doc v2
 publish: "true"
 tags:
   - Documentation

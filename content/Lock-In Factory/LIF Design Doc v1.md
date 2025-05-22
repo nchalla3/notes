@@ -1,5 +1,5 @@
 ---
-title: Old Lock-In Factory Design Doc
+title: Lock-In Factory Design Doc v1
 publish: "true"
 tags:
   - Documentation
