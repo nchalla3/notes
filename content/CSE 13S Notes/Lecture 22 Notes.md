@@ -68,7 +68,7 @@ ssize_T res = read(int fd, void *buf, size_t n);
 - n: number of bytes to read
 - returns:
 	- res
-		- >0: number of bytes actually read
+		- not 0 or -1: number of bytes actually read
 		- 0: EOF
 		- -1: error
 ##### close()
