@@ -1,5 +1,5 @@
 ---
-title: Automatic Vars in Makefiles, Unbuffered File I-O
+title: Automatic Vars, Unbuff File I-O
 publish: "true"
 tags:
   - Lecture-Notes
