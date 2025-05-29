@@ -1,6 +1,8 @@
 ---
 title: Embedded Systems
 publish: "true"
+tags:
+  - Lecture-Notes
 ---
 > [!tip] **Definition**
 > - Has a small screen (special purpose/very small)
