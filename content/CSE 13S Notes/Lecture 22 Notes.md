@@ -3,7 +3,6 @@ title: Automatic Vars, Unbuff File I-O
 publish: "true"
 tags:
   - Lecture-Notes
-  - Draft
 ---
 ## Automatic Variables in Makefiles
 
