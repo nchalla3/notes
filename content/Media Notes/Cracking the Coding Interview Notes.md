@@ -50,3 +50,8 @@ tags:
 - Whiteboard coding
 - Lunch interview with potential future manager
 - If all goes well, interview with director and then VP of org you're applying to
+### The Other Side of the Interview
+- Would I have a beer with this guy?
+- Do I want to work with this person for an extended period of time?
+- Can I depend on you?
+- Try to convey: **hiring me will make your life easier**
