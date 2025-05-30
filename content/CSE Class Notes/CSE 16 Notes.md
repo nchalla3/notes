@@ -20,13 +20,12 @@ title: Combinatorics With Repetition
 **n^k**: Number of ways to pick an object with replacement when order doesn't matter
 
 #### Combinations with Repetition:
-Example> Suppose that a bakery has 4 different kinds of donuts. How many ways can I select 6 donuts.
+Example: Suppose that a bakery has 4 different kinds of donuts. How many ways can I select 6 donuts.
 
 Since order doesn't matter, we want combinations
 
 Theorem: $$
-C(n + r - 1, r) = \binom{9}{6} = \frac{9!}{(9 - 6)! \cdot 6!} = \frac{9 \cdot 8 \cdot 7}{3 \cdot 2 \cdot 1} = 84
-$$
+C(n + r - 1, r) = \binom{9}{6} = \frac{9!}{(9 - 6)! \cdot 6!} = \frac{9 \cdot 8 \cdot 7}{3 \cdot 2 \cdot 1} = 84$$
 #### Balls and Bins
 How many ways are there for eight students and five professors to be alternated?
 
@@ -54,3 +53,10 @@ How many solutions does the equation x1 + x2 + x3 = 11 have where x1, x2, x3 are
 - n = 3 (num of boxes)
 - C(n+r-1, 5)
 - C(7, 5) = 21
+
+#### Example 4
+A coin is flipped 10 times. How many possible outcomes are there where exactly two of the flips come up heads?
+
+**Solution:**
+- This is like the bit-string example, except instead of locations of 1s we need to choose 2 of the 10 flips to come up heads:
+$$C(10, 2) = \frac{10!}{8! \cdot 2!} = \frac{10 \cdot 9} {2 \cdot 1} = 45$$
