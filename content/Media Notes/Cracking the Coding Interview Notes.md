@@ -55,3 +55,6 @@ tags:
 - Do I want to work with this person for an extended period of time?
 - Can I depend on you?
 - Try to convey: **hiring me will make your life easier**
+- Resume screeners care:
+	- if you are smart
+		- if you can code
