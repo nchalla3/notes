@@ -67,9 +67,23 @@ tags:
 | Hardest Bug              |           |           |           |           |
 | Enjoyed Most             |           |           |           |           |
 | Conflicts with Teammates |           |           |           |           |
-**STARR METHOD:** Situation, Task, Action, Result, Reflection
-- Think about what each story says about you
-
+- **STARR METHOD:** Situation, Task, Action, Result, Reflection
+	- Think about what each story says about you
+- Be specific, not arrogant
+- Limit details
+	- Ex: “By examining the most common user behavior and applying the Rabin-Karp algorithm, I designed a new algorithm to reduce search from O(n) to O(log n) in 90% of cases. I can go into more details if you’d like”
+- It ain't over til the interviewer says it's over
+**The Technical Interview Algorithm**
+1. Ask clarifying questions
+	1. Ex: Design an algorithm to sort a list?
+		1. What sort of list?
+		2. What does the list hold? 
+		3. How many values in the list?
+2. Design test cases
+3. Design an algorithm
+4. Write pseudocode (make sure this is explicitly stated)
+5. Write code
+6. Test code
 #### Questions for Interviewers
 **Genuine Questions:** (questions you actually want answered)
 1. How much of your day do you spend coding?
@@ -85,3 +99,23 @@ tags:
 
 6. I'm very interested in scalability. Did you come in with a background in this, or was it easy to learn on the job?
 7. Could you tell me a bit more about technology X? I'm personally not too familiar
+
+#### Pre-Interview: Technical Prep
+- Try to solve the problem on your own
+	- Think about time and space efficiency
+- Practice solving algorithms on paper (no IDEs or computers!)
+- Type this solution as is into a computer
+
+##### Must-Know Concepts
+| Data Structures    | Algorithms           | Concepts                 |
+| ------------------ | -------------------- | ------------------------ |
+| Linked Lists       | Breadth First Search | Bit Manipulation         |
+| Binary Trees       | Depth First Search   | Singleton Design Pattern |
+| Tries              | Binary Search        | Factory Design Pattern   |
+| Stacks             | Merge Sort           | Memory (Stack vs Heap)   |
+| Queues             | Quick Sort           | Recursion                |
+| Vectors/ArrayLists | Tree Insert/Find/etc | Big-O Time               |
+| Hash Tables        |                      |                          |
+Know How To:
+- Implement/use
+- Time/space complexity
