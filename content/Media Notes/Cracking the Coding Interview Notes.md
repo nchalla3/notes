@@ -57,4 +57,27 @@ tags:
 - Try to convey: **hiring me will make your life easier**
 - Resume screeners care:
 	- if you are smart
-		- if you can code
+	- if you can code
+### Behaviorals
+| Stay @ UCSC              | Project 1 | Project 2 | Project 3 | Project 4 |
+| ------------------------ | --------- | --------- | --------- | --------- |
+| Most Challenging         |           |           |           |           |
+| What You Learned         |           |           |           |           |
+| Most Interesting         |           |           |           |           |
+| Hardest Bug              |           |           |           |           |
+| Enjoyed Most             |           |           |           |           |
+| Conflicts with Teammates |           |           |           |           |
+**STARR METHOD:** Situation, Task, Action, Result, Reflection
+- Think about what each story says about you
+
+#### Questions for Interviewers
+**Genuine Questions:** (questions you actually want answered)
+1. How much of your day do you spend coding?
+2. How many meetings do you have every week?
+3. What's the distribution of testers: devs: product managers? How do they interact? How does project planning happen?
+**Insightful Questions:** (show that you know what you're talking about)
+4. When using technology X, how did you handle problem Y?
+5. Why did you choose to use this?
+**Passion Questions:** (show that you care about technology)
+6. I'm very interested in scalability. Did you come in with a background in this, or was it easy to learn on the job?
+7. Could you tell me a bit more about technology X? I'm personally not too familiar
