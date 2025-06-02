@@ -27,6 +27,7 @@ When selecting my tech stack, I went into this at a very surface level understan
 - Flutter:
 	- Best UI engine for animations/custom UIs
 	- Faster performance (compiles to native code)
+
 **Conclusion**:
 - Initial thought is to go with ReactNative because Flutter has a much smaller community and usage, and I've coded in JavaScript before so should be easier to develop, but Flutter has advantages of more extensively reusable codebase
 #### Framework
@@ -49,6 +50,7 @@ When selecting my tech stack, I went into this at a very surface level understan
 	- + Concurrency -> extremely reliable and efficient
 	- - Go is different than Python/JS -> learning curve
 	- - Integration is more complicated
+
 **Conclusion:**
 - I think learning Go would be fun and I'm inclined to believe that performance is one of the most important aspects of app development. I worry about its integration though, and wonder if going full JavaScript is the move.....
 #### Authorization
@@ -72,6 +74,7 @@ When selecting my tech stack, I went into this at a very surface level understan
 	- + Works well across microservices
 	- + Will inherently integrate well
 	- - MUCH more overhead cost
+
 **Conclusion:**
 **Firebase**, while lacking fine-grained access control capabilities intrinsically is free until usage is at a very high scale, and is easy to pick up, whilst auth0 requires a tremendous amount of overhead in time and cost for an app like this. But what if I used AWS..........
 #### Caching
@@ -88,6 +91,7 @@ When selecting my tech stack, I went into this at a very surface level understan
 	- + Seamless integration with Firebase
 	-  - Limited control
 	-  - No true memory cache
+- 
 **Conclusion:**
 While Firebase is easiest to get to a MVP, Redis is more applicable to industry and scales much better, so the initial decision is **Redis**.
 #### Dev Environment
@@ -112,6 +116,7 @@ While Firebase is easiest to get to a MVP, Redis is more applicable to industry 
 	+ + Works for all stacks
 	+ - Takes time
 	+ - More manual setup
+
 **Conclusion:**
 There really doesn't seem like a good reason to go with Flutter for an app like this.
 
