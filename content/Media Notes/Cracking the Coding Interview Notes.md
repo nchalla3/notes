@@ -119,3 +119,7 @@ tags:
 Know How To:
 - Implement/use
 - Time/space complexity
+
+#### Algorithmic Approaches
+1. Examplify
+	- Write out specific examples of the problem, and see if you can figure out a general rule
