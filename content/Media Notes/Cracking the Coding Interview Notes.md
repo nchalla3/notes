@@ -123,3 +123,11 @@ Know How To:
 #### Algorithmic Approaches
 1. Examplify
 	- Write out specific examples of the problem, and see if you can figure out a general rule
+	- Ex: Given a time, calculate the angle between the minute and hour hands
+		- Start with an example (say, 3:27P)
+		- We can develop a rule with the examples
+			- Minute angle: 360 * minutes / 60
+			- Hour angle: 360 * (hour % 12) / 12 + 360 * (minutes / 60) * (1/12)
+			- Angle between hour and minute (hour angle - minute angle) % 360
+		- This reduces down to 30 * hours - 55 * minutes
+		- 
