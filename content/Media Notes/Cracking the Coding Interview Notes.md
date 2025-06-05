@@ -130,4 +130,20 @@ Know How To:
 			- Hour angle: 360 * (hour % 12) / 12 + 360 * (minutes / 60) * (1/12)
 			- Angle between hour and minute (hour angle - minute angle) % 360
 		- This reduces down to 30 * hours - 55 * minutes
-		- 
+2. Pattern Matching
+	- Ex: A sorted array has been rotated so that the elements might appear in the order 3, 4, 5, 6, 7, 1, 2. How would you find the minimum element?
+		- Similar to:
+			- Find the minimum element in array
+			- Find a particular element in array (binary search)
+		- Algorithm:
+			- Brute force: iterate through all elements
+				- problem? not efficient and doesn't utilize the fact that it's sorted (though rotated)
+			- binary search:
+				- the array is sorted, but rotated, so it must proceed in an increasing order, then reset and increase again
+				- the minimum element is that reset point
+				- if you compare the first and middle element, you can determine that the range is still increasing
+				- therefore, reset point must be after the 6
+				- we can use the principles of binary search to look for ranges where left > right
+					- if left < right, range doesn't contain the reset
+					- otherwise, it does
+3. Simplify & Generalize
