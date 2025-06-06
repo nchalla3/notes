@@ -147,3 +147,4 @@ Know How To:
 					- if left < right, range doesn't contain the reset
 					- otherwise, it does
 3. Simplify & Generalize
+	1. Simplify the problem, make algorithm for simplified problem, generalize the problem again
