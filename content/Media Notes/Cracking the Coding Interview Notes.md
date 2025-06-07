@@ -148,3 +148,9 @@ Know How To:
 					- otherwise, it does
 3. Simplify & Generalize
 	1. Simplify the problem, make algorithm for simplified problem, generalize the problem again
+		- Ex: A ransom note can be formed by cutting words out of a magazine to form a new sentence. How would you figure out if a ransom note (string) can be formed from a given magazine (string):?
+			- Simplify: imagine that you're cutting characters out to form a ransom note
+			- create an array where each spot corresponds to the number of times each char appears
+				- go through the magazine to see if we have all of those characters
+			- Generalize: instead of creating an array, create a hash table
+				- each word maps to the number of times the word appears
