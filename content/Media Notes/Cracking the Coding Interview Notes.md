@@ -154,3 +154,4 @@ Know How To:
 				- go through the magazine to see if we have all of those characters
 			- Generalize: instead of creating an array, create a hash table
 				- each word maps to the number of times the word appears
+4. Base Case and Build
