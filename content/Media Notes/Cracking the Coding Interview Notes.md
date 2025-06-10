@@ -155,3 +155,6 @@ Know How To:
 			- Generalize: instead of creating an array, create a hash table
 				- each word maps to the number of times the word appears
 4. Base Case and Build
+	- Solve the algorithm for a basic case (1 element, n = 1, etc)
+	- Then solve for 2, 3......
+	- Kind of like proof by induction
