@@ -1,5 +1,5 @@
 ---
-title: Cracking the Coding Interview Notes
+title: Cracking the Coding Interview
 publish: "true"
 tags:
   - Books
@@ -59,7 +59,7 @@ tags:
 	- if you are smart
 	- if you can code
 ### Behaviorals
-| Stay @ UCSC              | Project 1 | Project 2 | Project 3 | Project 4 |
+|                          | Project 1 | Project 2 | Project 3 | Project 4 |
 | ------------------------ | --------- | --------- | --------- | --------- |
 | Most Challenging         |           |           |           |           |
 | What You Learned         |           |           |           |           |
@@ -158,3 +158,8 @@ Know How To:
 	- Solve the algorithm for a basic case (1 element, n = 1, etc)
 	- Then solve for 2, 3......
 	- Kind of like proof by induction
+	- Often lends itself to recursive algorithms
+	- Allows you to find "interesting" cases and early returns in algorithm
+5. Data Structure Brainstorm
+	- What exactly am I trying to do?
+	- What data structure would be useful to do what I'm trying to do?
