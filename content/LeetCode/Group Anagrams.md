@@ -6,7 +6,7 @@ publish: "true"
 - Using a tuple to represent these values allows for a time complexity of O (m * n) where m is the number of strings and m is the average length of each string
 - A less optimal, simpler solution is to sort the strings (Timsort or Powersort, depending on which version of Python you're using) and then compare from there
 
-```
+```python
 from collections import defaultdict
 
 def groupAnagrams(strs):
