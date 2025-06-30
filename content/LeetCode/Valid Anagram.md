@@ -1,3 +1,6 @@
+---
+publish: "true"
+---
 ### Takeaways:
 - Automatic pass/fail cases
 	- If the lengths aren't equal, they can't be anagrams
