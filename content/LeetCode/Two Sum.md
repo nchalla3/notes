@@ -1,6 +1,10 @@
 ---
 publish: "true"
 ---
+```rust
+fn(main)
+
+```
 ### Takeaways:
 - HashMaps for Lookup
 	- O(1) time complexity because it's a real-time operation
