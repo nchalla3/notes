@@ -1,3 +1,6 @@
+### Takeaways:
+- Use Two Pointers when you're traversing a data structure optimally
+- iterate both continuously in a loop
 ```python
  def twoSum(self, numbers, target):
         if len(numbers) == 2:
