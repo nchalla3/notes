@@ -36,16 +36,16 @@ class Solution(object):
 4. If this complement is in the **hashmap** (not nums), return the index of `complement` and `i` 
 
 ### Test Case:
-- Let's take an example where `nums = [1, 2, 4, 6]` and `target = 10`
+Let's take an example where `nums = [1, 2, 4, 6]` and `target = 10`
 1. `i = 0` and `num = 1`
 	1. `complement = 10 - 1 = 9` 
-	2. 9 **isn't** in the hashmap as the hashmap is initialized empty, so it gets added to `empty_map` as `{ 1 : 0 }`
+	2. `9` **isn't** in the hashmap as the hashmap is initialized empty, so it gets added to `empty_map` as `{ 1 : 0 }`
  2. `i = 1` and `num = 2`
 	 1. `complement = 10 - 2 = 8`
-	 2. 8 **isn't** in the hashmap, so it gets added to `empty_map` as `{ 2 : 1}`
+	 2. `8` **isn't** in the hashmap, so it gets added to `empty_map` as `{ 2 : 1}`
 3. `i = 2` and `num = 4`
 	 1. `complement = 10 - 4 = 6`
-	 2. 6 **isn't** in the hashmap, so it gets added to `empty_map` as `{ 4 : 2}`
+	 2. `6` **isn't** in the hashmap, so it gets added to `empty_map` as `{ 4 : 2}`
 4. `i = 6` and `num = 3`
 	 1. `complement = 10 - 6 = 4`
-	 2. 4 **is** in the hashmap, so it returns `empty_map[4]`, which is 2, and `i`, which is 3, revealing the answer of `[2,3]`
+	 2. `4` **is** in the hashmap, so it returns `empty_map[4]`, which is `2`, and `i`, which is `3`, revealing the answer of `[2,3]`
