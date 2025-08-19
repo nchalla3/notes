@@ -2,7 +2,7 @@
 publish: "true"
 ---
 ##### Hello World:
-```
+```rust
 fn main() {
 
 println!("Hello World!"); // outputs Hello World!
@@ -14,7 +14,7 @@ println!("Hello World!"); // outputs Hello World!
 - format! is a macro that writes formatted text to a string
 - {} is a positional parameter which can be used in formatted strings
 Ex: 
-```
+```rust
 fn main() {
 
 let people = "Rustaceans";
@@ -23,7 +23,7 @@ println!("Hello {people}!");       // outputs Hello Rustaceans!
 }
 ```
 
-```
+```rust
 let logical: bool = true;
 ```
 In the above code, the:
@@ -35,7 +35,7 @@ In the above code, the:
 ##### Type Inference in Rust
 - Rust infers the most specific type for your variable depending on its value
 - Ex:
-```
+```rust
 let x = 42;       // Rust infers: x: i32
 let name = "Joe"; // Rust infers: name: &str
 let pi = 3.14;     // Rust infers: pi: f64
@@ -43,3 +43,5 @@ let pi = 3.14;     // Rust infers: pi: f64
 - Types flow from right to left
 - If Rust can't figure out the type (with more abstract/complex data types), you need to annotate
 	- This can occur with empty datasets or ambiguous outputs
+
+### Borrow Checker
