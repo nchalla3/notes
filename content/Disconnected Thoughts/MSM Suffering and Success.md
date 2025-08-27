@@ -1,6 +1,8 @@
 ---
 publish: "true"
 title: The Success of Suffering
+tags:
+  - Journal
 ---
 > [!tip] Intentionality vs Happiness and Success
 > *I therefore admonish my students both in Europe and in America: 'Don't aim at success - the more you aim at it, the more you are going to miss it. For success, like happiness, cannot be pursued; it must ensue, and it only does so as the unintended side-effect of one's dedication to a cause greater than oneself or as the byproduct of one's surrender to a person other than oneself.*
