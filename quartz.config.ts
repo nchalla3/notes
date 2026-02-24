@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "nchalla3-notes.pages.dev",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/*.pdf"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
