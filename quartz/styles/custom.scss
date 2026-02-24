@@ -1,3 +1,83 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ─── Portfolio-matching theme ──────────────────────────────────────────────
+
+// Scrollbar — matches portfolio globals.css
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a5f;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+// Text selection
+::selection {
+  background: rgba(45, 212, 191, 0.2);
+  color: var(--secondary);
+}
+
+// ─── Typography ────────────────────────────────────────────────────────────
+
+// Page title in sidebar — teal like the portfolio accent
+.page-title a {
+  color: var(--secondary) !important;
+  letter-spacing: -0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.01em;
+}
+
+// Inline code — teal tint to match portfolio
+code {
+  color: var(--secondary);
+  background: rgba(45, 212, 191, 0.08);
+  border: 1px solid rgba(45, 212, 191, 0.15);
+}
+
+// ─── Sidebar ───────────────────────────────────────────────────────────────
+
+// Subtle right border on left sidebar
+.sidebar.left {
+  border-right: 1px solid var(--lightgray);
+}
+
+// Search box — match portfolio surface colors
+.search-bar {
+  background: var(--lightgray) !important;
+  border-color: var(--lightgray) !important;
+  color: var(--darkgray) !important;
+
+  &:focus {
+    border-color: var(--secondary) !important;
+  }
+}
+
+// ─── Graph ─────────────────────────────────────────────────────────────────
+
+.graph > #global-graph-outer > #global-graph-container,
+.graph > #graph-outer > #graph-container {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+}
+
+// ─── Footer ────────────────────────────────────────────────────────────────
+
+footer {
+  padding-top: 2rem;
+  border-top: 1px solid var(--lightgray);
+
+  a {
+    color: var(--secondary) !important;
+    &:hover {
+      color: var(--tertiary) !important;
+    }
+  }
+}
