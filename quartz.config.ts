@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "nchalla3-notes.pages.dev",
-    ignorePatterns: ["private", "templates", ".obsidian", "LeetCode/Two Sum.pdf"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
